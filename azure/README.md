@@ -1,5 +1,5 @@
 # Introduction 
-Folder that contains resources to demonstrate Konnect CICD using Azure DevOps. Contains two pipelines
+Folder contains resources to demonstrate Konnect CICD using Azure DevOps. Contains three pipelines
     -  `azure-pipelines.yaml` which will perform `decK ping`, `decK validate`, `decK diff` and `decK sync` in non production environments.
     -  `azure-pipelines-prod.yaml` which will perform `decK ping`, `decK validate`, `decK diff` and `decK sync` in production environments.
     - `deck-dump-pipeline.yaml` which will perform `decK ping` and `decK dump`

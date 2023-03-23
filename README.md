@@ -1,21 +1,22 @@
 # Introduction 
-Repository contains resources to demonstrate Konnect/Kong CICD (Right now we only have Azure DevOps pipelines, will be adding more soon, for more information refer to README.md in azure folder)
+Repository contains resources to demonstrate Konnect/Kong CICD (Right now only Azure DevOps pipelines are available, will be adding more soon.)
 
 # Repository Explanation
 
 | File/Folder | Description |
 | --- | ----------- |
 | `kong` | Contains environment specific folders with different service specific values file specific to that environment. |
-| `results` | This folder is not present in repository, but this is the folder where the processed yaml files get created by `generate_yaml.py` during runtime |
+| `results` | This folder is not present in remote repository, but this is the folder where the processed yaml files get created by `generate_yaml.py` during runtime |
 | `dump` | This folder is not present in repository, but this is the folder where we place deck yaml file during deck dump pipeline execution |
 | `templates` | Contains the jinja2 template files specific to services. |
 | `azure` | Azure DevOps pipeline resources, README.md |
 | `generate_yaml.py` | Python script to process the jinga2 templates. |
 | `README.md` | Repository specific README file. |
 
-# Create and Execute Pipeline
+# Create and Execute Azure Pipelines
  - Refer `azure` folder for details.
- - In future will add references for other CICD tools.
+ 
+ **Note:** In future will add references for other CICD tools.
 
 # On-board a new Service
  - Create a `template` jinja2 file in `templates` folders
@@ -26,7 +27,7 @@ Repository contains resources to demonstrate Konnect/Kong CICD (Right now we onl
  - Create value(s) file in `kong` folder
  - Commit changes to repository
 
-# To process jinga2 template locally
+# To process jinga2 template locally(Konnect)
 - Following tools have to be installed.
     1. jinja2
     2. PyYaml
