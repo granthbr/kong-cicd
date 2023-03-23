@@ -1,5 +1,5 @@
 # Introduction 
-Repository that contains resources to demonstrate Konnect/Kong CICD (Right now we only have Azure DevOps pipelines, will be adding more soon, for more information refer to README.md in azure folder)
+Repository contains resources to demonstrate Konnect/Kong CICD (Right now we only have Azure DevOps pipelines, will be adding more soon, for more information refer to README.md in azure folder)
 
 # Repository Explanation
 
